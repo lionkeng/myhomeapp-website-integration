@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.responsive-iframe {
+  height: calc(100vh - 92px);
+  width: 100vw;
+}
+
+.blocker {
+  z-index: 9999;
+  top: 0px;
+  left: 0;
+  width: 120px;
+  height: 60px;
+  background-color: white;
+}
+
+.logo-text {
+  line-height: 2.5em;
+  padding-left: 0.5em;
+  font-weight: 800;
+}

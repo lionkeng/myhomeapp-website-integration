@@ -1,0 +1,40 @@
+{
+  "name": "myhomeapp-website-integration",
+  "version": "1.0.0",
+  "description": "A website MyHomeApp integration example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build ./src/main.css -o ./output.css",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "html,css"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionkeng/myhomeapp-website-integration.git"
+  },
+  "keywords": [
+    "MyHomeApp",
+    "website"
+  ],
+  "author": "lionkeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lionkeng/myhomeapp-website-integration/issues"
+  },
+  "homepage": "https://github.com/lionkeng/myhomeapp-website-integration#readme",
+  "dependencies": {
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "npm-watch": "^0.9.0"
+  }
+}
